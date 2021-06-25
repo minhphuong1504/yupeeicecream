@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid System in Bootstrap 4</title>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="bg-info text-light py-5">
+  LOGO-MENU HERE
+</header>
+<div class="banner bg-secondary py-5">
+  <h1 class="text-center py-5"> banner here</h1>
+</div>
+<!--hết banner-->
+<main class="bg-light">
+  <div class="container py-4">
+    <section id="blog">
+      <div class="row">
+        <article class="col-md-10 col-lg-7 text-center bg-info mx-auto">
+          <h2>Blog Title</h2>
+          <p>nôi dung tại đây 12 cột khi cem tại (phone ngang (Sm) và phone-đứng)/ ipad thì chiếm 10 cột / destop lớn nhỏ đều chiếm 7 cột</p>
+        </article>
+      </div>
+      <!-- vùng bài blog chia 1 cột cho phone đứng, 2 cột cho phon ngang và ipad, destop nhỏ chia 3 cột, desktop lon là 4 cột-->
+      <div class="row my-3">
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5"> blog 01</div>
+        </article>
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5">blog 02</div>
+        </article>
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5"> blog 03</div>
+        </article>
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5">blog 04</div>
+        </article>
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5"> blog 05</div>
+        </article>
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5">blog 06</div>
+        </article>
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5"> blog 07</div>
+        </article>
+        <article class="col-sm-6 col-md-6 col-lg-4 col-xl-3 border mb-3">
+          <div class="bg-warning p-5">blog 08</div>
+        </article>
+      </div>
+    </section>
+    <section id="news" class="my-5">
+      <div class="row"> 
+        <!---- tiêu đề ở đây giống vùng blog bên trên---------------------->
+        <article class="col-md-10 col-lg-7 text-center bg-info mx-auto">
+          <h2>Relative News</h2>
+          <p>Design without silos. Built for the web, Figma is collaborative by nature. Plus, it is packed with design features you already love and  ..</p>
+        </article>
+      </div>
+      <!-- nôi dung tin lien quan( relative news),
+				chia 2 phần cho cả phone đứng và ngang,
+				chia 3 phần tại ipad,
+ 				và chia 6 phần tai desktop lớn và nhỏ, 
+			-->
+      <div class="row">
+        <article class="col-6 col-sm-4 col-md-4 col-lg-2 my-2">
+          <div class="p-2 bg-danger">
+            <h5 class="text-center py-5">Relative News 01</h5>
+          </div>
+        </article>
+        <article class="col-6 col-sm-4 col-md-4 col-lg-2 my-2">
+          <div class="p-2 bg-danger">
+            <h5 class="text-center py-5">Relative News 02</h5>
+          </div>
+        </article>
+        <article class="col-6 col-sm-4 col-md-4 col-lg-2 my-2">
+          <div class="p-2 bg-danger">
+            <h5 class="text-center py-5">Relative News 03</h5>
+          </div>
+        </article>
+        <article class="col-6 col-sm-4 col-md-4 col-lg-2 my-2">
+          <div class="p-2 bg-danger">
+            <h5 class="text-center py-5">Relative News 04</h5>
+          </div>
+        </article>
+        <article class="col-6 col-sm-4 col-md-4 col-lg-2 my-2">
+          <div class="p-2 bg-danger">
+            <h5 class="text-center py-5">Relative News 05</h5>
+          </div>
+        </article>
+        <article class="col-6 col-sm-4 col-md-4 col-lg-2 my-2">
+          <div class="p-2 bg-danger">
+            <h5 class="text-center py-5">Relative News 06</h5>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="bg-dark text-light">
+	<div class="container"><h1>footer here</h1></div>
+	
+	
+	
+	</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
